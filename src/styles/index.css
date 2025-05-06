@@ -32,9 +32,23 @@ html, body {
 }
 
 .buttons {
-    border: 1px solid  red;
     display: flex;
     align-content: space-around;
     padding: 5px;
     gap: 50px;
+}
+
+#new-quote {
+    border: none;
+    color: var(--backround-color);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+
+
+    &:hover {
+        cursor: pointer;
+        outline: 1px solid darkcyan;
+    }
 }
