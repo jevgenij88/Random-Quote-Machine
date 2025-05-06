@@ -49,7 +49,7 @@ const quotes = [
     { text: "This is the way.", author: "The Mandalorian" },
     { text: "We are Groot.", author: "Groot" },
     { text: "Cowabunga!", author: "Teenage Mutant Ninja Turtles" },
-    { text: "Victory is mine!", author: "Stewie Griffin (ok, kein Film 😅)" }
+    { text: "Victory is mine!", author: "Stewie Griffin (ok, not a film 😅)" }
 ];
 
 function getRandomQuote() {
