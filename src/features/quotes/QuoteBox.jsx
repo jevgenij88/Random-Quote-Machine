@@ -21,7 +21,7 @@ export default function QuoteBox() {
                 >
                     Tweet
                 </a>
-                <button id="new-quote" onClick={() => dispatch(getNewQuote())}>Neues Zitat</button>
+                <button id="new-quote" onClick={() => dispatch(getNewQuote())}>New Quote</button>
             </div>
         </div>
     )
