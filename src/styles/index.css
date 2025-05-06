@@ -30,3 +30,11 @@ html, body {
     font-weight: bolder;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
+
+.buttons {
+    border: 1px solid  red;
+    display: flex;
+    align-content: space-around;
+    padding: 5px;
+    gap: 50px;
+}
